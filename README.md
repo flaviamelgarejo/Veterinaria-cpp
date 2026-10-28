@@ -5,7 +5,6 @@ Trabajo práctico integrador de **Programación II** (Tecnicatura Universitaria 
 Es un sistema por consola, en C++ con Code::Blocks, para organizar el día a día de una veterinaria: clientes, mascotas, veterinarios, servicios y atenciones.
 
 ## Qué hace
-
 - Alta, listado, búsqueda, modificación y baja de clientes, mascotas, veterinarios, procedimientos y atenciones.
 - Las bajas no borran nada: el registro queda oculto para no perder el historial.
 - Al cargar una atención, controla que la mascota, el veterinario y el procedimiento existan y estén activos.
@@ -16,7 +15,6 @@ Es un sistema por consola, en C++ con Code::Blocks, para organizar el día a dí
 - Informes: recaudación por mes, por veterinario y por procedimiento, y los 3 procedimientos más pedidos.
 
 ## Cómo lo organizamos
-
 Antes de programar escribimos las **historias de usuario** (qué necesita cada persona de la clínica), los diagramas de archivos y de clases, y un diagrama de cómo se usa el sistema. Cada uno trabajó en su rama y juntamos todo con pull requests en GitHub.
 
 - [Historias de usuario](docs/historias-de-usuario.md)
@@ -24,13 +22,10 @@ Antes de programar escribimos las **historias de usuario** (qué necesita cada p
 - [Informe que presentamos con el proyecto](docs/informe-del-proyecto.pdf)
 
 ## Qué practicamos
-
 Clases, herencia (`Cliente` y `Veterinario` heredan de `Persona`), archivos binarios `.dat` para guardar los datos, y separar el código en archivos `.h` y `.cpp`.
 
 ## Cómo probarlo
-
-Abrir `Veterinaria_Proyecto.cbp` con Code::Blocks y apretar **F9**. Funciona en Windows. Los archivos `.dat` se crean solos al cargar el primer dato.
+Abrir `Veterinaria_Proyecto.cbp` con Code::Blocks. Funciona en Windows. Los archivos `.dat` se crean solos al cargar el primer dato.
 
 ## Equipo
-
 Juan Ciuffo, Damián Ramos y Flavia Melgarejo.
